@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates',sans-serif;
+}
+.fuente{
+    font-family:  'Montserrat Alternates',sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:#FFB534;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.container .btn-menul label{
+    font-size: 30px;
+    cursor:pointer;
+    margin: 35px;
+    float: left;
+    
+}
+
+.container .menul .btn-menul{
+    text-align: left;
+    float: left;
+    padding: 25px;
+    line-height: 70px;
+}
+.container .menul {
+    text-align: left;
+    float: left;
+    padding: 0px;
+    line-height: 70px;
+}
+.header .container .menul a{
+    display: block;
+    padding: 0px 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size:10px;
+    margin: 0px 53px;
+    font-size: 20px;
+}
+.header .container .menul{
+    display: flex;
+    float:none;
+}
+
+.header .container .menul .listamenu{
+    padding: 5vh;
+}
+
+.container .menul a:hover{
+    border-bottom: 2px solid black;
+}
+#btn-menul{
+    display: none;
+}
+.container-menul{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menul:checked~.container-menul{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menul{
+    width:120px;
+    max-width: 200px;
+    background: #1c1c1c;
+    height: 100vh;
+    position:relative;
+    transition: all 300ms ease;
+}
+.cont-menul nav{
+    transform: translateY(15%);
+}
+.cont-menul nav a{
+    display:block;
+    text-decoration: none;
+    padding:20px;
+    color:#c7c7c7;
+    border-left: 5px solid transparent;
+    transition:all 400ms ease;
+}
+.cont-menul nav a:hover{
+    border-left: 5px solid green;
+    background: #1f1f1f;
+}
+.cont-menul label{
+    position: absolute;
+    right: 5px;
+    top:10px;
+    color:#fff;
+    cursor:pointer;
+    font-size: 18px;
+}
+
+#imlogo{
+   position: relative;
+    display: inline-block;
+}
+#texto{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+
+
+
+#pie{
+    margin-top: 0vh;
+    width: 100%;
+    height: 270px;
+    display: inline-flex;
+    background-color:#4fb741;
+    flex-direction: row;
+}
+#pie img{
+    display: inline;
+    width: 15%;
+    height: auto;
+}
+#pie label{
+    padding-top: 10vh;
+    margin-left: 5vh;
+    margin-right: 0vh;
+    font-size: 4vh;
+}
+#pie label:hover{
+    padding-top: 3vh;
+    margin-left: 5vh;
+    color:white;
+}
+.tp{
+    width: 50vh;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.tp ul li{
+    margin: 15px;
+    font-size: 3vh;
+}
+#redes{
+    display:flex;
+    justify-content:flex-start;
+    align-items:baseline;
+    text-align: center;
+    font-size: 3vh;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}

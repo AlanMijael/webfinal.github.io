@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates',sans-serif;
+}
+.infprinc{
+    background-color: greenyellow;
+    height: auto;
+}
+#tablai tr td {
+    margin-right: 50px;
+    flex:content;
+}
+.perfil{
+    margin: 10px;
+    display: inline-flex;
+    color: #000000;
+    background-color: rgb(195, 195, 195);
+    width: 500px;
+    position: relative;
+    border: 3px solid green;
+    transition: all 1s ease;
+}
+.cl{
+    margin: 10px;
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 203px;
+    color:white;
+    position:absolute;
+}
+.cl h2{
+    font-size: 1.5vh;
+    margin-left: 225px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.perfil-ocul{
+    margin: 10px;
+    display: inline-flex;
+    color: black;
+    background-color: rgb(195, 195, 195);
+    width: 500px;
+    position: absolute;
+    border-top:  3px solid green;
+    border-left:  3px solid green;
+    border-right: 3px solid green; 
+    border-bottom: 10px solid rgba(255, 166, 0, 0.685);
+    margin-bottom: 10px;
+}
+.perfil-img{
+    display: block;
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.perfil-inf{
+    font-size: 1vh;
+    border-left: 3px solid green;
+    display: block;
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+}
+.perfil-inf h2{
+    margin: 20px 20px ;
+    display: flex;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    width: auto;
+}
+.perfil:hover{
+    opacity: 0;
+    visibility: hidden;
+}
+.infprinc h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 80 px;
+    font-family: 'Montserrat Alternates';
+}
